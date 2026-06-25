@@ -30,7 +30,6 @@ export const EXPERIENCE = [
   }
 ];
 
-
 export const EDUCATION = [
   {
     degree: "Master of Computer Applications (MCA)",
