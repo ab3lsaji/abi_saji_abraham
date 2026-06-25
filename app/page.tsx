@@ -30,9 +30,14 @@ export default function Home() {
             <Link href="mailto:abisajiabraham@gmail.com" className="px-6 py-3 text-sm font-medium text-slate-950 bg-teal-400 hover:bg-teal-300 rounded-md transition-all duration-200 shadow-lg shadow-teal-500/10">
               Contact Abi
             </Link>
-            <Link href="#experience" className="px-6 py-3 text-sm font-medium text-slate-300 bg-slate-900 hover:bg-slate-800 border border-slate-800 hover:border-slate-700 rounded-md transition-all duration-200">
-              View Achievements
-            </Link>
+            {/* Download Resume Button — Targets the PDF in the public folder */}
+            <a 
+              href="/Abi_Saji_Abraham_Resume.pdf" 
+              download="Abi_Saji_Abraham_Resume.pdf"
+              className="px-6 py-3 text-sm font-medium text-slate-300 bg-slate-900 hover:bg-slate-800 border border-slate-800 hover:border-slate-700 rounded-md transition-all duration-200"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
       </section>
